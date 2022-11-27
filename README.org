@@ -1,0 +1,28 @@
+* Reduce and Solve Graph Coloring
+This repository constains the code for the practical assignment of the subject
+"HEURÍSTICAS E METAHEURÍSTICAS" lectured in DCC UFMG 2022/02 by the Professor Thiago
+Ferreira de Noronha.
+
+Our proprosed heuristics follows the reduce and solve approach, composed of a
+ pre-processing phase that identifies and extracts some vertices (in this case, a maximal
+ independent set) of the original graph to obtain a second reduced graph. Such a strategy
+ was chosen due to the exceptional performance obtained from *Reduce and Solve* with large
+ graphs, however empirical results show that such approaches do not work as well with
+ smaller graphs. We later apply the well known D-SATUR algorithm and compare the results
+ with and without pruning.
+
+** Instructions
+ First install the required libraries (assuming you have python and pip isntalled).
+
+ #+BEGIN_SRC 
+ pip install -r requirements.txt
+ #+END_SRC
+
+ Then execute the code. It will produce and output containing the chromatic number using
+ D-SATUR with the orignal graph, and later the chromatic number using the reduce and solve
+ approach (also wiht D-SATUR). Both approaches are also followed by the run time (in
+ seconds).
+ #+BEGIN_SRC python
+ python3 reduce_and_solve.py
+ #+END_SRC
+
