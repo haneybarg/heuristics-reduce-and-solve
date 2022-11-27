@@ -12,9 +12,9 @@ Our proprosed heuristics follows the reduce and solve approach, composed of a
  with and without pruning.
 
 ** Instructions
- First install the required libraries (assuming you have python and pip isntalled).
+ First install the required libraries (assuming you have python and pip installed).
 
- #+BEGIN_SRC 
+ #+BEGIN_SRC
  pip install -r requirements.txt
  #+END_SRC
 
@@ -25,4 +25,3 @@ Our proprosed heuristics follows the reduce and solve approach, composed of a
  #+BEGIN_SRC python
  python3 reduce_and_solve.py
  #+END_SRC
-
