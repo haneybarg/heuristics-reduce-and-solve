@@ -2,7 +2,10 @@
 """
 Created on Tue Jun  5 15:44:57 2018
 
+
 @author: Administrator
+taken from
+https://github.com/je-suis-tm/graph-theory/blob/master/graph.py
 """
 
 import numpy as np
