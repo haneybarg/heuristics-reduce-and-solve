@@ -1,7 +1,8 @@
 * Reduce and Solve Graph Coloring
 This repository constains the code for the practical assignment of the subject
 "HEURÍSTICAS E METAHEURÍSTICAS" lectured in DCC UFMG 2022/02 by the Professor Thiago
-Ferreira de Noronha.
+Ferreira de Noronha. The group members are Fernanda Guimarães, Ricardo Alves and Caio
+Raposo.
 
 Our proprosed heuristics follows the reduce and solve approach, composed of a
  pre-processing phase that identifies and extracts some vertices (in this case, a maximal
